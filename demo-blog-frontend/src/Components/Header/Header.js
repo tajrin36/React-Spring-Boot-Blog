@@ -50,8 +50,8 @@ class Header extends React.Component {
       >
         <Navbar bg="white" expand="sm">
           <Container fluid>
-            <Navbar.Brand to="/" as={NavLink}>
-              {t("home")}
+            <Navbar.Brand to="/" as={NavLink} className="fw-bold">
+              {t("Home")}
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -61,7 +61,7 @@ class Header extends React.Component {
                   variant="outline-secondary"
                   style={{ boxShadow: "2px 2px 5px grey" }}
                 >
-                  {t("languages")}
+                  {t("Languages")}
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>

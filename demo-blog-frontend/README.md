@@ -1,17 +1,31 @@
-# Simple Blog - React demo project
-Simple demo blog with basic functionality such as JWT authentication, create/retrieve/update/delete
-posts and comments.
 
-![react-blog-480](https://user-images.githubusercontent.com/92530084/180834501-d0e70e96-9659-42f0-971b-421b3627886a.gif)
+# Project Title
 
-## Installation
-Download source code as `zip`, unzip archive, navigate to project folder and
-run `npm install` command to install all required dependencies.
+This is our Academic Software Development Project
 
-## Running application
+## Front End
 
-To start application run `npm start` command, it will start application and
-open main window [http://localhost:3000](http://localhost:3000) in the browser. 
-Blog is pre-populated with demo data and users on application start. Create
-new user or login with any author full name password: `password`, administrator
-username: `admin` password: `admin`.
+
+Technology
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Reactrouter | [![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactrouter.com/en/main/start/tutorial) |
+| Bootstrap  | [![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/docs/5.3/getting-started/download/) |
+| Formik | [![#Formik](https://img.shields.io/badge/Formik-2563EB.svg?style=for-the-badge&logo=Formik&logoColor=white)](https://formik.org/docs/overview) |
+| i18next | ![#i18next](https://img.shields.io/badge/i18next-26A69A.svg?style=for-the-badge&logo=i18next&logoColor=white) |
+
+
+### NPM Package Manager:
+
+* [Web Vitals](https://www.npmjs.com/package/web-vitals)
+* [React Bootstrap](https://www.npmjs.com/package/react-bootstrap)
+* [React Scripts](https://www.npmjs.com/package/react-scripts)
+* [yup](https://www.npmjs.com/package/yup)
+
+### How to Run
+
+Use [NPM](https://nodejs.org/en/download/prebuilt-installer) Package Manager
+1. ```npm install```
+2. ```npm start```
+ it will start application and open main window http://localhost:3000 in the browser.
