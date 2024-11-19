@@ -2,7 +2,7 @@
   "common": {
     "home": "Home",
     "languages": "Languages",
-    "lt": "Lithuanian",
+    "lt": "Bangla",
     "en": "English",
     "newPost": "New Post",
     "logout": "Logout",
@@ -30,7 +30,7 @@
     "userName": "User name",
     "enterUserName": "Enter user name",
     "password": "Password",
-    "loginForm": "Login form",
+    "loginForm": "Login Form",
     "email": "Email",
     "registrationForm": "Registration Form",
     "enterEmail": "Enter email",

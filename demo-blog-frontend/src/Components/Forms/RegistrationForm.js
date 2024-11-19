@@ -33,7 +33,7 @@ const RegistrationForm = (props) => {
       {(formik) => (
         <Col sm={10} md={8} lg={6}>
           <Card className="roundedBorder boxShadow">
-            <Card.Header className="fst-italic">
+            <Card.Header className="fw-bold">
               {t("registrationForm")}
             </Card.Header>
             <Form

@@ -29,7 +29,7 @@ const LoginForm = ({ onSubmit, isSubmitted }) => {
       {(formik) => (
         <Col sm={10} md={8} lg={6}>
           <Card className="boxShadow">
-            <Card.Header className="fst-italic">{t("loginForm")}</Card.Header>
+            <Card.Header className="fw-bold">{t("loginForm")}</Card.Header>
             <Form
               className="m-2 p-4 border rounded-3"
               onSubmit={formik.handleSubmit}
