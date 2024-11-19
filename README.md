@@ -1,29 +1,31 @@
-# Simple Blog React Java Spring Boot Full Stack App
 
-![React](https://img.shields.io/badge/React-18.2.0-61dafb)
-![JDK](https://img.shields.io/badge/JDK-17-orange)
-![springBoot](https://img.shields.io/badge/Spring%20Boot-2.6.7-brightgreen)
-![H2](https://img.shields.io/badge/H2-1.4.2-darkblue)
+# Project Title
 
-|![react-blog-480](https://user-images.githubusercontent.com/92530084/180834501-d0e70e96-9659-42f0-971b-421b3627886a.gif)|
-|------------------------------|
+This is our Academic Software Development Project
 
-### Description
+## Front End
 
-React Java Spring Boot full stack application for demonstration and educational purposes. Simple demo blog with basic functionality such as JWT
-authentication, create new users and full CRUD (Create, Retrieve, Update, Delete) operations on posts and comments. Blog is pre-populated
-with demo data on application start. Create new user or login with any author full name, password is `password`, administrator
-username: `admin` password: `admin`.
 
-### Installation
+Technology
 
-1. Download source code as zip, unzip archive or `git clone https://github.com/hmurij/react-spring-boot-blog.git`.
-2. Navigate to `demo-blog-frontend` folder and run `npm install`
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Reactrouter | [![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactrouter.com/en/main/start/tutorial) |
+| Bootstrap  | [![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/docs/5.3/getting-started/download/) |
+| Formik | [![#Formik](https://img.shields.io/badge/Formik-2563EB.svg?style=for-the-badge&logo=Formik&logoColor=white)](https://formik.org/docs/overview) |
+| i18next | ![#i18next](https://img.shields.io/badge/i18next-26A69A.svg?style=for-the-badge&logo=i18next&logoColor=white) |
 
-### Access the application
-1. Navigate to `demo-blog-backend` and run `gradlew bootRun` to start backend Spring Boot REST API application.
-2. Navigate to `demo-blog-frontend` and run `npm start` command, it will start frontend application and open main window on [http://localhost:3000](http://localhost:3000).
 
-### Reference
-* [Blog REST API documentation](./demo-blog-backend/README.md)
-* [Sister project using Thymeleaf and Spring MVC](https://github.com/hmurij/thymeleaf-spring-mvc-blog)
+### NPM Package Manager:
+
+* [Web Vitals](https://www.npmjs.com/package/web-vitals)
+* [React Bootstrap](https://www.npmjs.com/package/react-bootstrap)
+* [React Scripts](https://www.npmjs.com/package/react-scripts)
+* [yup](https://www.npmjs.com/package/yup)
+
+### How to Run
+
+Use [NPM](https://nodejs.org/en/download/prebuilt-installer) Package Manager
+1. ```npm install```
+2. ```npm start```
+ it will start application and open main window http://localhost:3000 in the browser.
