@@ -1,5 +1,5 @@
 
-# Creative Cat
+# Project Title
 
 This is our Academic Software Development Project
 
